@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Modern Art UI</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">More Information</string>
+    <string name="msg_more_art">"\nInspired by the works of artists such as\nJasper Johns and Andy Warhol in the\ncontext of recent political change.\n\nClick below to see more:"</string>
+    <string name="visit_met">Visit The Met</string>
+    <string name="not_now">Not Now</string>
+
+</resources>

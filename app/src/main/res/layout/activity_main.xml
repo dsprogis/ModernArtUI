@@ -1,0 +1,206 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ffffffff"
+    android:id="@+id/background">
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <FrameLayout
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_column="6"
+        android:layout_gravity="right|top"
+        android:background="#ff0000ff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/blue"></FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/seekBar"
+        android:layout_below="@+id/blue"
+        android:background="#ffff0000"
+        android:id="@+id/stripe01">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe02"
+        android:layout_above="@+id/seekBar"
+        android:layout_below="@+id/blue"
+        android:layout_toLeftOf="@+id/stripe01"
+        android:alpha="0">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe03"
+        android:layout_above="@+id/seekBar"
+        android:layout_below="@+id/blue"
+        android:layout_toLeftOf="@+id/stripe02"
+        android:alpha="1">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe04"
+        android:layout_above="@+id/seekBar"
+        android:layout_below="@+id/blue"
+        android:layout_toLeftOf="@+id/stripe03"
+        android:alpha="0">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe05"
+        android:layout_above="@+id/seekBar"
+        android:layout_below="@+id/blue"
+        android:layout_toLeftOf="@+id/stripe04"
+        android:alpha="1">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe06"
+        android:layout_above="@+id/seekBar"
+        android:layout_below="@+id/blue"
+        android:layout_toLeftOf="@+id/stripe05"
+        android:alpha="0">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe07"
+        android:layout_above="@+id/seekBar"
+        android:layout_below="@+id/blue"
+        android:layout_toLeftOf="@+id/stripe06"
+        android:alpha="1">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe08"
+        android:layout_above="@+id/seekBar"
+        android:layout_toLeftOf="@+id/stripe07"
+        android:alpha="0">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe09"
+        android:layout_above="@+id/seekBar"
+        android:layout_toLeftOf="@+id/stripe08"
+        android:alpha="1">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe10"
+        android:layout_above="@+id/seekBar"
+        android:layout_toLeftOf="@+id/stripe09"
+        android:alpha="0">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe11"
+        android:layout_above="@+id/seekBar"
+        android:layout_toLeftOf="@+id/stripe10"
+        android:alpha="1">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe12"
+        android:layout_above="@+id/seekBar"
+        android:layout_toLeftOf="@+id/stripe11"
+        android:alpha="0">
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:layout_gravity="bottom|right"
+        android:background="#ffff0000"
+        android:id="@+id/stripe13"
+        android:layout_above="@+id/seekBar"
+        android:layout_toLeftOf="@+id/stripe12"
+        android:alpha="1">
+    </FrameLayout>
+
+</RelativeLayout>
